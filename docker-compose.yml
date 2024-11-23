@@ -7,4 +7,4 @@ services:
     container_name: app
     ports:
       - "3000:3000"
-    entrypoint: tail -f /dev/null
+    entrypoint: su -c "npm install && tail -f /dev/null"
