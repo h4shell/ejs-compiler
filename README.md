@@ -30,32 +30,23 @@ Ensure you have the following installed:
    ```bash
    docker-compose up -d
    ```
-2. Install dependencies:
-   ```bash
-   docker exec -it npm install
-   ```
-3. Start the development server:
+2. Start the development server:
    ```bash
    ./scripts/server.sh
    ```
-4. Access the application at [http://localhost:3001](http://localhost:3001).
-5. Compile the project to HTML:
+3. Access the application at [http://localhost:3001](http://localhost:3001).
+4. Compile the project to HTML:
    ```bash
    ./scripts/build.sh
    ```
 
 #### Without Docker
 
-1. Install dependencies:
-   ```bash
-   cd app
-   npm install
-   ```
-2. Start the server:
+1. Start the server:
    ```bash
    npm run server
    ```
-3. Compile:
+2. Compile:
    ```bash
    npm run build
    ```
