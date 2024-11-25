@@ -1,0 +1,13 @@
+<div class="container flex flex-col gap-3 text-center mx-auto">
+    <div x-text="count" class="text-4xl font-bold"></div class="container flex flex-col gap-3">
+    <div class="container text-center flex gap-3 mx-auto justify-center">
+        <button class="bg-slate-700 w-10 rounded-xl text-2xl h-12 hover:bg-slate-600" id="btn-more"
+            @click="increment($event)">
+            +
+        </button>
+        <button class="bg-slate-700 w-10 rounded-xl text-2xl h-12 hover:bg-slate-600 opacity-50" id="btn-less"
+            @click="decrement($event)">
+            -
+        </button>
+    </div>
+</div>
